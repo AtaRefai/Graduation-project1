@@ -1,0 +1,16 @@
+body {
+    height:700px;
+    overflow-y: scroll;
+    margin: 0;
+    padding:0;
+    background: white;
+}
+.pull-right{
+    flow:right;
+}
+.pull-left{
+    flow:left;
+}
+.clear-fix{
+    clear:both;
+}

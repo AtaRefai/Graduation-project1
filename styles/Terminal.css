@@ -1,0 +1,23 @@
+body {
+    overflow: hidden;
+}
+#editor {
+    position:relative;
+    height: 330px;
+    width:800px;
+    margin:0px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+@media (max-width: 1200px){
+    #editor{
+        width:625px;
+    }
+}
+@media (min-width: 1600px){
+    #editor{
+        width:1000px;
+    }
+}
