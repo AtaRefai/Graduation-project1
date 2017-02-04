@@ -14,6 +14,9 @@ $(document).ready(function() {
     $("#file").click( function() {
         document.getElementById("myDropdown").classList.toggle("show");
     });
+    $("#logout-btn").click( function() {
+        document.getElementById("log-Dropdown").classList.toggle("show");
+    });
 
     // Close the dropdown menu if the user clicks outside of it
     window.onclick = function(event) {
